@@ -10,7 +10,6 @@ cd wb-oauth
 virtualenv appenv
 source appenv/bin/activate
 pip install -r requirements.txt
-python db_setup.py
 cd app
 python app.py
 ```
