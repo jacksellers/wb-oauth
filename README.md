@@ -1,8 +1,8 @@
 # wb-oauth
 
 ### Description
-A simple Flask application that uses GitHub to register new users and offers basic CRUD functionality
-
+A simple Flask application that uses GitHub to register new users, stores their details in a SQLite database and allows them to edit their bio or delete their account.
+ 
 ### Installation
 ```
 git clone https://github.com/jackwsellers/wb-oauth.git
