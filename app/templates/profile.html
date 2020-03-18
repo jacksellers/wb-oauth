@@ -29,7 +29,8 @@
                 {% endif %}
                 <h3>Username</h3><p>{{ user.username }}</p>
                 <br>
-                <h3>GitHub</h3><p>{{ user.github }}</p>
+                <h3>GitHub</h3><a href="{{ user.github }}" style="color:blue">{{ user.github }}</a>
+                <br>
                 <br>
                 <h3>Bio</h3><p>{{ user.bio }}</p>
                 <br>
