@@ -130,3 +130,6 @@ dmypy.json
 
 # Virtual environment
 /appenv
+
+# Database
+/app/app.sqlite3
